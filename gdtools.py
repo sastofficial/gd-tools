@@ -13,6 +13,7 @@ while nooptionloop == 0:
     else:
         optionfile = open("options.gdtools", "a")
         print("Optionfile found.")
+        nooptionloop = 1
     readoption = open("options.gdtools", "r")
     request_option = readoption.readline() 
     if request_option == "False":
@@ -29,5 +30,5 @@ while nooptionloop == 0:
                 requestloop = 1
             else:
                 print("Error! Please try again.")
-    print("test")
+
 
