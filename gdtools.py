@@ -53,5 +53,12 @@ while loop == 0:
                 song_download_file.write(song_download_chunk) # thank you https://365datascience.com/tutorials/python-tutorials/python-requests-package/
                 print("Song downloaded. Look for the .mp3 file")
     elif command == help:
+        print("""GD TOOLS BY SA ST
+        --------
+        Commands
+        --------
+        > help: Shows this page
+        > download: Download files from gd
+        > exit: Exits GD TOOLS """)
     else:
         print("Error")
